@@ -1,0 +1,11 @@
+vector: 底层数据结构为数组
+list: 底层数据结构是双向链表
+deque: 底层数据结构是一个中央控制器和多个缓冲区
+stack: 底层一般用list或者deque实现
+queue: 底层一般用list或者deque实现
+priority_queue: 底层一般用vector为底层容器，heap处理规则，管理底层容器
+
+set,multiset: 底层数据结构是红黑树
+map, multimap: 底层数据结构是红黑树
+unordered_set: 底层为hashtable
+unordered_map: 底层为hashtable
